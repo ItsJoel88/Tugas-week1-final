@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Hanalei&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald' , sans-serif;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  
+}
+/*nav*/
+header{
+    background-color: darkcyan;
+    padding-top: 20px;
+    border-bottom: 2px solid aqua;
+    position: fixed;
+    width: 100%;
+}
+.nama{
+    font-size: 22px;
+}
+header a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+li{
+    list-style: none;
+    padding: 0 15px 0 15px;
+    display: inline;
+}
+header .nama{
+    float: left;
+}
+header .nama h1{
+    margin:0;
+}
+header ul{
+    margin-top: 20px;
+}
+header a:hover{
+    color:white;
+}
+
+/*home*/
+.home{
+    padding-top:100px;
+    background-image: url(/image/4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 1px solid aqua;
+}
+.home h1{
+    text-align: center;
+    color: rgb(160, 25, 25);
+    margin-top: 250px;
+    padding: 10px;
+    font-size: 50px;
+}
+.home i{
+    padding:10px;
+    color: rgb(160, 25, 25);
+    margin-left: 78px;
+    padding-left: 100px;
+}
+.home i:hover{
+    color:white;
+}
+
+/*about*/
+.about{
+    line-height: 1.5em;
+    border-bottom: 1px solid aqua;
+    padding-top: 111px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.about .container{
+    height: 250px;
+}
+.about h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about p{
+    text-align: center;
+    padding-top:5px;
+}
+.about h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+}
+.tombol{
+    margin-top: 15px;
+}
+.button{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.about a:hover{
+    color: red;
+    background-color: black;
+}
+
+/*myproject*/
+.myproject{
+    text-align: center;
+    border-bottom: 1px solid aqua;
+    padding-top: 111px;
+    padding-bottom: 50px;
+}
+.project-1 , .project-2{
+    display: inline-block;
+    margin: 20px;
+    border:1px solid black
+}
+img{
+    border-bottom: 1px solid black;
+}
+img:hover{
+    opacity: 0.5;
+}
+.project-1 p , .project-2 p{
+    border-bottom: 1px solid black;
+}
+
+/*connect*/
+.connect{
+    padding-top: 89px;
+    text-align: center;
+
+}
+label , input{
+    margin-bottom: 30px;
+}
+button{
+    font-size: 18px;
+    padding: 10px;
+    background: aqua;
+    border-radius: 10px;
+    margin: 10px;
+}
+button:hover{
+    background: gray;
+}
+label , textarea{
+    vertical-align: middle;
+}
+
+/*footer*/
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    background: darkcyan;
+    width: 100%;
+    font-size: 20px;
+}
+.footer i{
+    padding: 10px;
+    margin-left: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer a:hover {
+    color:white;
+}
