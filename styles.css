@@ -58,7 +58,7 @@ header a:hover{
 /*home*/
 .home{
     padding-top:100px;
-    background-image: url(/image/4.jpg);
+    background-image: url("https://itsjoel88.github.io/Tugas-week1-final/4.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
